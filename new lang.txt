@@ -1,0 +1,114 @@
+*New Language Features* that offered by n[0~?]
+[0: ANSI C, 1: Swift, 2:Rust, 3: Go ...?] 
+Not Priority! , Just Jot downed. 
+0. ANSI C 
+-> 
+Pointer , File I/O Method, Function definition Method
+Stable Version Concept. 
+Semicolon
+ 
+1.Swift 
+(Low Memory usaging)
+
+
+2. Rust 
+(Memory management)-> Ownership & Borrowing
+
+<Trait>, {Generic}   
+
+3. Go
+
+-> Low Latency
+
+4. Haskell 
+
+-> Functional Programming 
+
+5. Python 
+
+Concise code 
+
+6.Java
+
+->  Object-Oriented Concepts, Library 
+
+7. Kotlin 
+-> Readability  
+
+8. C++ 
+
+-> Polymorphism, Overriding, Overloading, Virtual Function 
+
+9. COBOL 
+
+-> (Keyword numbers) [300]
+
+DIVISION 
+
+10. Sawzell
+
+
+
+
+<Dynamic Type>
+<Type inference>
+
+D;  /* Error : Do not do this. */  
+/* what is type of D? Ambiguous Declaration */
+B=10; /* B is Integer 10 */ 
+*A=&B; /* A is Pointer that reference of B */
+*C =&B; /* Error:  reference of B will not 2 or over 
+->  Pointer of something is can be zero or one (0 / 1) */ 
+
+Swap Semantic : swap(F, G)
+/* It is okay -> while F and G point another
+ value or F and G is not same */ 
+
+sth=10; /* Okay: something is 10 */
+
+sth is 10; /*Also okay: something is 10 */
+
+sth(10); /* Okay : sth is 10 */
+
+sth2(sth) 
+/* value is copied && value is move from sth to sth2 */
+
+example1 : 
+Line| code 
+====|=====
+1   | a = 10; /* a declared : a is 10 */
+2   | b(a); /* b is a : b  is 10 and  a deleted */
+3   | c(a); /* *ERROR* : deleted value doesn't copied */
+ 
+
+Line | code 
+=====|==========
+1    | N = 20;
+2    | M = 30;
+3    | k = 60;
+4    |  fn main: /*If return type is void, parenthess() -> X Okay */
+
+fn main:
+ /* Begin of the Block */
+
+
+
+/* End of the Block */
+
+
+IDENTIFICATION DIVISION
+ENVIORNMENT DIVISION
+DATA DIVISION
+PROCEDURE DIVISION
+
+FUNCTION DIVISION
+
+
+
+ 
+
+ 
+
+
+
+
